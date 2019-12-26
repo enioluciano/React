@@ -1,0 +1,113 @@
+.content-gender {
+    color: #444;
+    margin-top: 40px;
+    font-family: Lato,Montserrat;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    letter-spacing: .68px;
+    line-height: 23px;
+}
+
+*, :after, :before {
+    
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.btn-female, .btn-male {
+    display: inline-block;
+    max-width: 280px;
+}
+
+.btn-female, .btn-male {
+    border-radius: 9px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .51px;
+    line-height: 18px;
+    outline: none!important;
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+    padding: 15px;
+    width: 100%;
+}
+
+.btn-female {
+    
+    box-shadow: 0 4px 11px -2px rgba(255,52,100,.5);
+    color: #ff3464;
+    
+}
+
+.btn {
+    
+    margin-bottom: 0;
+    
+    white-space: nowrap;
+    vertical-align: middle;
+    
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    
+    user-select: none;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+   
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    
+}
+
+button, select {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    
+    font: inherit;
+    margin: 0;
+}
+
+*, :after, :before {
+    
+    box-sizing: border-box;
+}
+
+button {
+   
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+   
+    word-spacing: normal;
+    
+    text-indent: 0px;
+    text-shadow: none;
+   
+    align-items: flex-start;
+    
+}
+
+.btn-male {
+    
+    box-shadow: 0 4px 11px -2px rgba(86,70,143,.5);
+    color: #56468f;
+}
+
+.btn-male {
+    margin-left: 15px;
+}

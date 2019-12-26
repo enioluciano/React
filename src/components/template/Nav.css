@@ -1,0 +1,11 @@
+h1 {
+    color: #ff3464;
+    font-family: Lato,Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1.36px;
+    
+    display: block;
+    max-width: 400px;
+    line-height: 46px;
+}
